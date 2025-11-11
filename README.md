@@ -3,6 +3,10 @@
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Fretboard-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Fretboard-AppImage/releases/latest)
 [![CI Build Status](https://github.com//pkgforge-dev/Fretboard-AppImage/actions/workflows/blank.yml/badge.svg)](https://github.com/pkgforge-dev/Fretboard-AppImage/releases/latest)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/bragefuglseth/fretboard/refs/heads/main/data/icons/dev.bragefuglseth.Fretboard.svg" />
+</p>
+
 * [Latest Stable Release](https://github.com/pkgforge-dev/Fretboard-AppImage/releases/latest)
 
 ---
