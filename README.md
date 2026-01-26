@@ -1,3 +1,5 @@
+<div align="center">
+
 # Fretboard AppImage 🐧
 
 [![GitHub Downloads](https://img.shields.io/github/downloads/pkgforge-dev/Fretboard-AppImage/total?logo=github&label=GitHub%20Downloads)](https://github.com/pkgforge-dev/Fretboard-AppImage/releases/latest)
@@ -8,7 +10,11 @@
   <img src="https://raw.githubusercontent.com/bragefuglseth/fretboard/refs/heads/main/data/icons/dev.bragefuglseth.Fretboard.svg" width="128" />
 </p>
 
-* [Upstream URL](https://github.com/bragefuglseth/fretboard)
+| Latest Stable Release | Upstream URL |
+| :---: | :---: |
+| [Click here](https://github.com/pkgforge-dev/Fretboard-AppImage/releases/latest) | [Click here](https://github.com/bragefuglseth/fretboard) |
+
+</div>
 
 ---
 
