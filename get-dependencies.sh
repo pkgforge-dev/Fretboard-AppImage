@@ -11,3 +11,6 @@ pacman -Syu --noconfirm fretboard
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano
+
+# no need for this
+pacman -Rdd --noconfirm mesa
