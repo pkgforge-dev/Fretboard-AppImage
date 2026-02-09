@@ -12,14 +12,10 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/dev.bragefuglseth.Fretboard.s
 export DESKTOP=/usr/share/applications/dev.bragefuglseth.Fretboard.desktop
 export STARTUPWMCLASS=dev.bragefuglseth.Fretboard # Default to Wayland's wmclass. For X11, GTK_CLASS_FIX will force the wmclass to be the Wayland one.
 export GTK_CLASS_FIX=1
-export DEPLOY_OPENGL=0
+export ALWAYS_SOFTWARE=1
 
 # Trace and deploy all files and directories needed for the application (including binaries, libraries and others)
 quick-sharun /usr/bin/fretboard
-
-# force only software, hardware accel is not really needed for this simple app
-echo 'GSK_RENDERER=cairo'    >> ./AppDir/.env
-echo 'GDK_DISABLE=gl,vulkan' >> ./AppDir/.env
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
