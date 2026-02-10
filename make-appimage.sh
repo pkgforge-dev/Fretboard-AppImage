@@ -19,3 +19,6 @@ quick-sharun /usr/bin/fretboard
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
+
+# Test the final app
+quick-sharun --test ./dist/*.AppImage
